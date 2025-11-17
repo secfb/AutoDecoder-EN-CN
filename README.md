@@ -9,22 +9,39 @@ I want to maintain this project with many use cases and interfaces. I hope every
 
 ----
 
-### AutoDecoder English/Chinese Language Option
+
 
 Target audience: Masters with some coding foundation, or those without foundation but willing to learn and tinker with automatic encryption/decryption.
+
 
 
 ----- 
 
 # For autoDecoder examples, please refer to [autoDecoder-usages](https://github.com/f0ng/autoDecoder-usages), which will be helpful for many who want to write interfaces themselves.
 
+
+----- 
+
+### AutoDecoder English/Chinese Language Option
+
 This project is primarily used in Chinese as the main language of the plugin. I've edited this project in both Chinese and English. The core code structure hasn't been changed.
 
 https://github.com/f0ng/autoDecoder
 
+#### English
 
+<img width="3132" height="1768" alt="burp-en" src="https://github.com/user-attachments/assets/446e426a-0ae8-4d84-9d75-fc9ceb9794fb" />
 
+#### Chinese 
+<img width="1561" height="883" alt="image" src="https://github.com/user-attachments/assets/866e095c-d30e-4ab3-8774-cba135a5ba63" />
 
+----- 
+
+##### Plugin Compilation Command
+
+```mvn -DskipTests clean package```
+
+-----
 
 # Do not casually modify the interface code template for obtaining parameters and return formats, otherwise garbled characters or inability to run normally may occur.
 
